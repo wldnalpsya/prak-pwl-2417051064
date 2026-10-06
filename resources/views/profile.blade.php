@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Profile Mahasiswa</title>
-
     <style>
         * {
             margin: 0;
@@ -117,53 +115,38 @@
         }
     </style>
 </head>
-
 <body>
-
     <div class="container">
-
         <div class="header">
-
-            <div class="avatar">
-                P
-            </div>
-
+            <div class="avatar">W</div>
             <h1>Profile Mahasiswa</h1>
-
             <p>Praktikum Pemrograman Web Lanjut</p>
-
         </div>
 
         <div class="content">
-
             <h2 class="title">Data Mahasiswa</h2>
 
             <div class="info">
-
                 <div class="card">
                     <h3>nama</h3>
-                    <p>{{ $nama }}</p>
+                    <p>{{ $nama ?: 'Wildan Humam Alpasya' }}</p>
                 </div>
 
                 <div class="card">
                     <h3>kelas</h3>
-                    <p>{{ $kelas }}</p>
+                    <p>{{ $kelas ?: 'B' }}</p>
                 </div>
 
                 <div class="card">
                     <h3>npm</h3>
-                    <p>{{ $npm }}</p>
+                    <p>{{ $npm ?: '2417051064' }}</p>
                 </div>
-
             </div>
-
         </div>
 
         <div class="footer">
-             2026 Pemrograman Web Lanjut
+            2026 Pemrograman Web Lanjut
         </div>
-
     </div>
-
 </body>
 </html>
