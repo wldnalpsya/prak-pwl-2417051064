@@ -68,6 +68,7 @@
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
+<<<<<<< HEAD
             "version": "3.2.0",
             "source": {
                 "type": "git",
@@ -78,6 +79,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/CarbonPHP/carbon-doctrine-types/zipball/18ba5ddfec8976260ead6e866180bd5d2f71aa1d",
                 "reference": "18ba5ddfec8976260ead6e866180bd5d2f71aa1d",
+=======
+            "version": "3.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CarbonPHP/carbon-doctrine-types.git",
+                "reference": "5fa5eacafd9ef47c8c6ab9143fc901ba0194d3dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon-doctrine-types/zipball/5fa5eacafd9ef47c8c6ab9143fc901ba0194d3dc",
+                "reference": "5fa5eacafd9ef47c8c6ab9143fc901ba0194d3dc",
+>>>>>>> 910b4f2 (Initial project setup)
                 "shasum": ""
             },
             "require": {
@@ -92,6 +105,14 @@
                 "phpunit/phpunit": "^10.3"
             },
             "type": "library",
+<<<<<<< HEAD
+=======
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "3.x-dev"
+                }
+            },
+>>>>>>> 910b4f2 (Initial project setup)
             "autoload": {
                 "psr-4": {
                     "Carbon\\Doctrine\\": "src/Carbon/Doctrine/"
@@ -117,7 +138,11 @@
             ],
             "support": {
                 "issues": "https://github.com/CarbonPHP/carbon-doctrine-types/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/CarbonPHP/carbon-doctrine-types/tree/3.2.0"
+=======
+                "source": "https://github.com/CarbonPHP/carbon-doctrine-types/tree/3.2.1"
+>>>>>>> 910b4f2 (Initial project setup)
             },
             "funding": [
                 {
@@ -133,7 +158,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-02-09T16:56:22+00:00"
+=======
+            "time": "2026-09-06T14:11:38+00:00"
+>>>>>>> 910b4f2 (Initial project setup)
         },
         {
             "name": "dflydev/dot-access-data",
@@ -1060,6 +1089,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v12.68.0",
             "source": {
                 "type": "git",
@@ -1070,6 +1100,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/1343c22b92edd48e29ff273d8ce7c15cf75d974c",
                 "reference": "1343c22b92edd48e29ff273d8ce7c15cf75d974c",
+=======
+            "version": "v12.69.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "17d034ef1e209b63a1d3a89c90ce5e89a4eb3fc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/17d034ef1e209b63a1d3a89c90ce5e89a4eb3fc5",
+                "reference": "17d034ef1e209b63a1d3a89c90ce5e89a4eb3fc5",
+>>>>>>> 910b4f2 (Initial project setup)
                 "shasum": ""
             },
             "require": {
@@ -1278,7 +1320,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+<<<<<<< HEAD
             "time": "2026-08-25T14:18:36+00:00"
+=======
+            "time": "2026-09-08T14:29:09+00:00"
+>>>>>>> 910b4f2 (Initial project setup)
         },
         {
             "name": "laravel/prompts",
@@ -1468,6 +1514,7 @@
         },
         {
             "name": "league/commonmark",
+<<<<<<< HEAD
             "version": "2.10.0",
             "source": {
                 "type": "git",
@@ -1478,6 +1525,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/d2d1aa8b35e072966c89bc0c66cf926e56767dc4",
                 "reference": "d2d1aa8b35e072966c89bc0c66cf926e56767dc4",
+=======
+            "version": "2.10.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/commonmark.git",
+                "reference": "9d489ab67a02960fd8ffe624d93f751daf95439e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/9d489ab67a02960fd8ffe624d93f751daf95439e",
+                "reference": "9d489ab67a02960fd8ffe624d93f751daf95439e",
+>>>>>>> 910b4f2 (Initial project setup)
                 "shasum": ""
             },
             "require": {
@@ -1571,7 +1630,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2026-08-11T16:06:25+00:00"
+=======
+            "time": "2026-09-07T13:44:26+00:00"
+>>>>>>> 910b4f2 (Initial project setup)
         },
         {
             "name": "league/config",
@@ -1657,6 +1720,7 @@
         },
         {
             "name": "league/flysystem",
+<<<<<<< HEAD
             "version": "3.35.3",
             "source": {
                 "type": "git",
@@ -1667,6 +1731,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/5fc8404762179ae514678487b23494fd69b2309c",
                 "reference": "5fc8404762179ae514678487b23494fd69b2309c",
+=======
+            "version": "3.36.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem.git",
+                "reference": "f7fb152932f30072d573510cbd4dd657d6475b25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f7fb152932f30072d573510cbd4dd657d6475b25",
+                "reference": "f7fb152932f30072d573510cbd4dd657d6475b25",
+>>>>>>> 910b4f2 (Initial project setup)
                 "shasum": ""
             },
             "require": {
@@ -1734,9 +1810,15 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/thephpleague/flysystem/tree/3.35.3"
             },
             "time": "2026-08-22T12:55:54+00:00"
+=======
+                "source": "https://github.com/thephpleague/flysystem/tree/3.36.0"
+            },
+            "time": "2026-09-02T08:00:27+00:00"
+>>>>>>> 910b4f2 (Initial project setup)
         },
         {
             "name": "league/flysystem-local",
@@ -2027,6 +2109,7 @@
         },
         {
             "name": "monolog/monolog",
+<<<<<<< HEAD
             "version": "3.10.0",
             "source": {
                 "type": "git",
@@ -2037,6 +2120,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Seldaek/monolog/zipball/b321dd6749f0bf7189444158a3ce785cc16d69b0",
                 "reference": "b321dd6749f0bf7189444158a3ce785cc16d69b0",
+=======
+            "version": "3.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "72c534fc0ab181ef52d92a68382318631e301608"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/72c534fc0ab181ef52d92a68382318631e301608",
+                "reference": "72c534fc0ab181ef52d92a68382318631e301608",
+>>>>>>> 910b4f2 (Initial project setup)
                 "shasum": ""
             },
             "require": {
@@ -2062,6 +2157,10 @@
                 "phpstan/phpstan-strict-rules": "^2",
                 "phpunit/phpunit": "^10.5.17 || ^11.0.7",
                 "predis/predis": "^1.1 || ^2",
+<<<<<<< HEAD
+=======
+                "psr/clock": "^1.0",
+>>>>>>> 910b4f2 (Initial project setup)
                 "rollbar/rollbar": "^4.0",
                 "ruflin/elastica": "^7 || ^8",
                 "symfony/mailer": "^5.4 || ^6",
@@ -2080,6 +2179,10 @@
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
                 "mongodb/mongodb": "Allow sending log messages to a MongoDB server (via library)",
                 "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+<<<<<<< HEAD
+=======
+                "psr/clock": "Required to pass a clock to the Logger and control the timestamp of log records",
+>>>>>>> 910b4f2 (Initial project setup)
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
                 "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
             },
@@ -2114,7 +2217,11 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/Seldaek/monolog/tree/3.10.0"
+=======
+                "source": "https://github.com/Seldaek/monolog/tree/3.12.0"
+>>>>>>> 910b4f2 (Initial project setup)
             },
             "funding": [
                 {
@@ -2126,7 +2233,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2026-01-02T08:56:05+00:00"
+=======
+            "time": "2026-09-09T08:34:20+00:00"
+>>>>>>> 910b4f2 (Initial project setup)
         },
         {
             "name": "nesbot/carbon",
@@ -3379,6 +3490,7 @@
         },
         {
             "name": "symfony/console",
+<<<<<<< HEAD
             "version": "v7.4.17",
             "source": {
                 "type": "git",
@@ -3389,6 +3501,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/console/zipball/962e18f09ebe68a49039b4c82fc0ea4871824fca",
                 "reference": "962e18f09ebe68a49039b4c82fc0ea4871824fca",
+=======
+            "version": "v7.4.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "23d6f88a29f6d0eac45bd77d70307adf83ba7ab0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/23d6f88a29f6d0eac45bd77d70307adf83ba7ab0",
+                "reference": "23d6f88a29f6d0eac45bd77d70307adf83ba7ab0",
+>>>>>>> 910b4f2 (Initial project setup)
                 "shasum": ""
             },
             "require": {
@@ -3453,7 +3577,11 @@
                 "terminal"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/console/tree/v7.4.17"
+=======
+                "source": "https://github.com/symfony/console/tree/v7.4.18"
+>>>>>>> 910b4f2 (Initial project setup)
             },
             "funding": [
                 {
@@ -3473,6 +3601,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2026-08-21T12:09:28+00:00"
         },
         {
@@ -3487,6 +3616,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/css-selector/zipball/e3822e1cb7013a0a99b3c578130458927ec4eb89",
                 "reference": "e3822e1cb7013a0a99b3c578130458927ec4eb89",
+=======
+            "time": "2026-08-25T14:18:37+00:00"
+        },
+        {
+            "name": "symfony/css-selector",
+            "version": "v7.4.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/css-selector.git",
+                "reference": "fecf40067fc8d8880ea87b8ac227600b9aadd1d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/fecf40067fc8d8880ea87b8ac227600b9aadd1d0",
+                "reference": "fecf40067fc8d8880ea87b8ac227600b9aadd1d0",
+>>>>>>> 910b4f2 (Initial project setup)
                 "shasum": ""
             },
             "require": {
@@ -3522,7 +3667,11 @@
             "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/css-selector/tree/v7.4.17"
+=======
+                "source": "https://github.com/symfony/css-selector/tree/v7.4.18"
+>>>>>>> 910b4f2 (Initial project setup)
             },
             "funding": [
                 {
@@ -3542,7 +3691,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2026-08-21T17:40:08+00:00"
+=======
+            "time": "2026-08-23T10:03:40+00:00"
+>>>>>>> 910b4f2 (Initial project setup)
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -3932,6 +4085,7 @@
         },
         {
             "name": "symfony/http-foundation",
+<<<<<<< HEAD
             "version": "v7.4.17",
             "source": {
                 "type": "git",
@@ -3942,6 +4096,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-foundation/zipball/2ebe78c083501dfb9509b31a7aedcae4d60a391f",
                 "reference": "2ebe78c083501dfb9509b31a7aedcae4d60a391f",
+=======
+            "version": "v7.4.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-foundation.git",
+                "reference": "d070b716a32fbe3bf04204db0f58ace73b86d133"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/d070b716a32fbe3bf04204db0f58ace73b86d133",
+                "reference": "d070b716a32fbe3bf04204db0f58ace73b86d133",
+>>>>>>> 910b4f2 (Initial project setup)
                 "shasum": ""
             },
             "require": {
@@ -3990,7 +4156,11 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-foundation/tree/v7.4.17"
+=======
+                "source": "https://github.com/symfony/http-foundation/tree/v7.4.18"
+>>>>>>> 910b4f2 (Initial project setup)
             },
             "funding": [
                 {
@@ -4010,6 +4180,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2026-08-20T09:55:18+00:00"
         },
         {
@@ -4024,6 +4195,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-kernel/zipball/aa160388d444210e3d01bbb4c5c53af4cd763df4",
                 "reference": "aa160388d444210e3d01bbb4c5c53af4cd763df4",
+=======
+            "time": "2026-08-30T20:10:52+00:00"
+        },
+        {
+            "name": "symfony/http-kernel",
+            "version": "v7.4.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-kernel.git",
+                "reference": "275d2d2d24530f2a0eaf17704a3a93860a036351"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/275d2d2d24530f2a0eaf17704a3a93860a036351",
+                "reference": "275d2d2d24530f2a0eaf17704a3a93860a036351",
+>>>>>>> 910b4f2 (Initial project setup)
                 "shasum": ""
             },
             "require": {
@@ -4109,7 +4296,11 @@
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-kernel/tree/v7.4.17"
+=======
+                "source": "https://github.com/symfony/http-kernel/tree/v7.4.18"
+>>>>>>> 910b4f2 (Initial project setup)
             },
             "funding": [
                 {
@@ -4129,7 +4320,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2026-08-22T13:41:33+00:00"
+=======
+            "time": "2026-08-30T21:24:29+00:00"
+>>>>>>> 910b4f2 (Initial project setup)
         },
         {
             "name": "symfony/mailer",
@@ -4217,7 +4412,11 @@
         },
         {
             "name": "symfony/mime",
+<<<<<<< HEAD
             "version": "v7.4.17",
+=======
+            "version": "v7.4.18",
+>>>>>>> 910b4f2 (Initial project setup)
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
@@ -4282,7 +4481,11 @@
                 "mime-type"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/mime/tree/v7.4.17"
+=======
+                "source": "https://github.com/symfony/mime/tree/v7.4.18"
+>>>>>>> 910b4f2 (Initial project setup)
             },
             "funding": [
                 {
@@ -5135,7 +5338,11 @@
         },
         {
             "name": "symfony/process",
+<<<<<<< HEAD
             "version": "v7.4.17",
+=======
+            "version": "v7.4.18",
+>>>>>>> 910b4f2 (Initial project setup)
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -5176,7 +5383,11 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/process/tree/v7.4.17"
+=======
+                "source": "https://github.com/symfony/process/tree/v7.4.18"
+>>>>>>> 910b4f2 (Initial project setup)
             },
             "funding": [
                 {
@@ -5200,7 +5411,11 @@
         },
         {
             "name": "symfony/routing",
+<<<<<<< HEAD
             "version": "v7.4.17",
+=======
+            "version": "v7.4.18",
+>>>>>>> 910b4f2 (Initial project setup)
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
@@ -5261,7 +5476,11 @@
                 "url"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/routing/tree/v7.4.17"
+=======
+                "source": "https://github.com/symfony/routing/tree/v7.4.18"
+>>>>>>> 910b4f2 (Initial project setup)
             },
             "funding": [
                 {
@@ -5285,6 +5504,7 @@
         },
         {
             "name": "symfony/service-contracts",
+<<<<<<< HEAD
             "version": "v3.7.1",
             "source": {
                 "type": "git",
@@ -5295,6 +5515,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/service-contracts/zipball/c0a284bab1ed8aa0417e3d69250ab437739563a0",
                 "reference": "c0a284bab1ed8aa0417e3d69250ab437739563a0",
+=======
+            "version": "v3.7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/service-contracts.git",
+                "reference": "15e6a07ec2a2c75ceb1b21dd98105ee8456d2257"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/15e6a07ec2a2c75ceb1b21dd98105ee8456d2257",
+                "reference": "15e6a07ec2a2c75ceb1b21dd98105ee8456d2257",
+>>>>>>> 910b4f2 (Initial project setup)
                 "shasum": ""
             },
             "require": {
@@ -5348,7 +5580,11 @@
                 "standards"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/service-contracts/tree/v3.7.1"
+=======
+                "source": "https://github.com/symfony/service-contracts/tree/v3.7.3"
+>>>>>>> 910b4f2 (Initial project setup)
             },
             "funding": [
                 {
@@ -5368,7 +5604,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2026-06-16T09:55:08+00:00"
+=======
+            "time": "2026-07-27T15:39:01+00:00"
+>>>>>>> 910b4f2 (Initial project setup)
         },
         {
             "name": "symfony/string",
@@ -5723,6 +5963,7 @@
         },
         {
             "name": "symfony/var-dumper",
+<<<<<<< HEAD
             "version": "v7.4.17",
             "source": {
                 "type": "git",
@@ -5733,6 +5974,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/var-dumper/zipball/53712df8727da1744490202eeb9cb50d4b95419d",
                 "reference": "53712df8727da1744490202eeb9cb50d4b95419d",
+=======
+            "version": "v7.4.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-dumper.git",
+                "reference": "e088da50b813f32473a76871616cbb8fa54653a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/e088da50b813f32473a76871616cbb8fa54653a8",
+                "reference": "e088da50b813f32473a76871616cbb8fa54653a8",
+>>>>>>> 910b4f2 (Initial project setup)
                 "shasum": ""
             },
             "require": {
@@ -5786,7 +6039,11 @@
                 "dump"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/var-dumper/tree/v7.4.17"
+=======
+                "source": "https://github.com/symfony/var-dumper/tree/v7.4.18"
+>>>>>>> 910b4f2 (Initial project setup)
             },
             "funding": [
                 {
@@ -5806,7 +6063,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2026-08-21T12:09:28+00:00"
+=======
+            "time": "2026-08-30T20:10:52+00:00"
+>>>>>>> 910b4f2 (Initial project setup)
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -6294,6 +6555,7 @@
         },
         {
             "name": "laravel/pint",
+<<<<<<< HEAD
             "version": "v1.30.5",
             "source": {
                 "type": "git",
@@ -6304,6 +6566,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/pint/zipball/fe4148c503a0e266353d61396b79bbf7f35122df",
                 "reference": "fe4148c503a0e266353d61396b79bbf7f35122df",
+=======
+            "version": "v1.32.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/pint.git",
+                "reference": "006bd7825eb01daf92959d060b89cd9514fe4253"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/006bd7825eb01daf92959d060b89cd9514fe4253",
+                "reference": "006bd7825eb01daf92959d060b89cd9514fe4253",
+>>>>>>> 910b4f2 (Initial project setup)
                 "shasum": ""
             },
             "require": {
@@ -6315,6 +6589,7 @@
             },
             "require-dev": {
                 "composer/semver": "^3.4.4",
+<<<<<<< HEAD
                 "friendsofphp/php-cs-fixer": "^3.95.18",
                 "illuminate/view": "^13.24.0",
                 "larastan/larastan": "^3.10.0",
@@ -6322,6 +6597,15 @@
                 "laravel/agent-detector": "^2.0.2",
                 "laravel/prompts": "^0.3.22",
                 "mockery/mockery": "^1.6.12",
+=======
+                "friendsofphp/php-cs-fixer": "^3.95.25",
+                "illuminate/view": "^13.31.0",
+                "larastan/larastan": "^3.11.0",
+                "laravel-zero/framework": "^13.0.0",
+                "laravel/agent-detector": "^2.0.2",
+                "laravel/prompts": "^0.3.24",
+                "mockery/mockery": "^1.6.15",
+>>>>>>> 910b4f2 (Initial project setup)
                 "nunomaduro/termwind": "^2.4.0",
                 "pestphp/pest": "^4.7.8"
             },
@@ -6360,7 +6644,11 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
+<<<<<<< HEAD
             "time": "2026-08-10T15:35:50+00:00"
+=======
+            "time": "2026-09-10T10:47:55+00:00"
+>>>>>>> 910b4f2 (Initial project setup)
         },
         {
             "name": "laravel/sail",
@@ -8262,6 +8550,7 @@
         },
         {
             "name": "symfony/yaml",
+<<<<<<< HEAD
             "version": "v7.4.17",
             "source": {
                 "type": "git",
@@ -8272,6 +8561,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/yaml/zipball/0b040d7b66ceb10b7bb24c8e6656257932693a12",
                 "reference": "0b040d7b66ceb10b7bb24c8e6656257932693a12",
+=======
+            "version": "v7.4.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "4cef939e55b8a21c5780418de0d98ab00d0736e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/4cef939e55b8a21c5780418de0d98ab00d0736e1",
+                "reference": "4cef939e55b8a21c5780418de0d98ab00d0736e1",
+>>>>>>> 910b4f2 (Initial project setup)
                 "shasum": ""
             },
             "require": {
@@ -8314,7 +8615,11 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/yaml/tree/v7.4.17"
+=======
+                "source": "https://github.com/symfony/yaml/tree/v7.4.18"
+>>>>>>> 910b4f2 (Initial project setup)
             },
             "funding": [
                 {
@@ -8334,7 +8639,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2026-08-21T12:09:28+00:00"
+=======
+            "time": "2026-08-30T00:47:26+00:00"
+>>>>>>> 910b4f2 (Initial project setup)
         },
         {
             "name": "theseer/tokenizer",
